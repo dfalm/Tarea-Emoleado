@@ -8,7 +8,11 @@
         <entry key="..\:/documentos/movil/Lugares/app/src/main/res/drawable/ic_login.xml" value="0.2555" />
         <entry key="..\:/documentos/movil/Lugares/app/src/main/res/drawable/ic_register.xml" value="0.2555" />
         <entry key="..\:/documentos/movil/Lugares/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/documentos/movil/Lugares/app/src/main/res/layout/app_bar_principal.xml" value="0.10233029381965553" />
         <entry key="..\:/documentos/movil/Lugares/app/src/main/res/layout/content_principal.xml" value="0.25" />
+        <entry key="..\:/documentos/movil/Lugares/app/src/main/res/layout/fragment_add_lugar.xml" value="0.2" />
+        <entry key="..\:/documentos/movil/Lugares/app/src/main/res/layout/fragment_lugar.xml" value="0.234375" />
+        <entry key="..\:/documentos/movil/Lugares/app/src/main/res/layout/fragment_slideshow.xml" value="0.15989583333333332" />
         <entry key="..\:/documentos/movil/Lugares/app/src/main/res/menu/activity_main_drawer.xml" value="0.18854166666666666" />
         <entry key="..\:/documentos/movil/Lugares/app/src/main/res/menu/principal.xml" value="0.14583333333333334" />
       </map>
