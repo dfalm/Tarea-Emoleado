@@ -3,6 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/documentos/movil/Empleado/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.168" />
+        <entry key="..\:/documentos/movil/Empleado/app/src/main/res/drawable/ic_delete.xml" value="0.168" />
+        <entry key="..\:/documentos/movil/Empleado/app/src/main/res/drawable/ic_launcher_background.xml" value="0.168" />
+        <entry key="..\:/documentos/movil/Empleado/app/src/main/res/drawable/ic_login.xml" value="0.168" />
+        <entry key="..\:/documentos/movil/Empleado/app/src/main/res/drawable/ic_logoff.xml" value="0.168" />
+        <entry key="..\:/documentos/movil/Empleado/app/src/main/res/drawable/ic_menu_camera.xml" value="0.168" />
+        <entry key="..\:/documentos/movil/Empleado/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.168" />
+        <entry key="..\:/documentos/movil/Empleado/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.168" />
+        <entry key="..\:/documentos/movil/Empleado/app/src/main/res/drawable/ic_register.xml" value="0.168" />
+        <entry key="..\:/documentos/movil/Empleado/app/src/main/res/drawable/side_nav_bar.xml" value="0.168" />
+        <entry key="..\:/documentos/movil/Empleado/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/documentos/movil/Empleado/app/src/main/res/layout/activity_principal.xml" value="0.25" />
+        <entry key="..\:/documentos/movil/Empleado/app/src/main/res/layout/fragment_add_empleado.xml" value="0.15885416666666666" />
+        <entry key="..\:/documentos/movil/Empleado/app/src/main/res/layout/fragment_empleado.xml" value="0.25" />
+        <entry key="..\:/documentos/movil/Empleado/app/src/main/res/layout/fragment_gallery.xml" value="0.15885416666666666" />
+        <entry key="..\:/documentos/movil/Empleado/app/src/main/res/layout/fragment_lugar.xml" value="0.15885416666666666" />
+        <entry key="..\:/documentos/movil/Empleado/app/src/main/res/layout/fragment_slideshow.xml" value="0.25" />
+        <entry key="..\:/documentos/movil/Empleado/app/src/main/res/layout/nav_header_principal.xml" value="0.25" />
+        <entry key="..\:/documentos/movil/Empleado/app/src/main/res/menu/activity_main_drawer.xml" value="0.15885416666666666" />
+        <entry key="..\:/documentos/movil/Empleado/app/src/main/res/menu/principal.xml" value="0.15885416666666666" />
         <entry key="..\:/documentos/movil/Lugares/app/src/main/res/drawable/ic_baseline_exit_to_app_24.xml" value="0.2555" />
         <entry key="..\:/documentos/movil/Lugares/app/src/main/res/drawable/ic_delete.xml" value="0.2555" />
         <entry key="..\:/documentos/movil/Lugares/app/src/main/res/drawable/ic_login.xml" value="0.2555" />

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "636616012460",
+    "project_id": "empleado-d03d3",
+    "storage_bucket": "empleado-d03d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636616012460:android:e4d56dd8704215d194a509",
+        "android_client_info": {
+          "package_name": "com.lugares"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "636616012460-j88iq3eae08k5n33199ofo1lovnm85ja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBO5lnuMdbyTLjJXNhyuUz1SmIftfGFqwI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "636616012460-j88iq3eae08k5n33199ofo1lovnm85ja.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

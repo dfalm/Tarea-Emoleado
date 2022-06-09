@@ -1,4 +1,4 @@
-package com.lugares.ui.lugar
+package com.lugares.ui.empleado
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,13 +9,13 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.lugares.R
-import com.lugares.databinding.FragmentLugarBinding
-import com.lugares.ui.viewmodel.LugarViewModel
+import com.lugares.databinding.FragmentEmpleadoBinding
+import com.lugares.ui.viewmodel.EmpleadoViewModel
 
-class LugarFragment : Fragment() {
+class EmpleadoFragment : Fragment() {
 
-    private lateinit var lugarViewModel: LugarViewModel
-    private var _binding: FragmentLugarBinding? = null
+    private lateinit var empleadoViewModel: EmpleadoViewModel
+    private var _binding: FragmentEmpleadoBinding? = null
     private val binding get() = _binding!!
 
 
@@ -23,11 +23,11 @@ class LugarFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        lugarViewModel = ViewModelProvider(this)[LugarViewModel::class.java]
-        _binding = FragmentLugarBinding.inflate(inflater,container,false)
+        empleadoViewModel = ViewModelProvider(this)[EmpleadoViewModel::class.java]
+        _binding = FragmentEmpleadoBinding.inflate(inflater,container,false)
 
         //Se programa la accion para pasarse a AddLugar
-        binding.addLugarButton.setOnClickListener{
+        binding.addEmpleadoButton.setOnClickListener{
             findNavController().navigate(R.id.action_nav_lugar_to_addLugarFragment)
         }
 

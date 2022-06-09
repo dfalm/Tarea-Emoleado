@@ -7,7 +7,7 @@
         <item
             android:id="@+id/nav_lugar"
             android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_lugar" />
+            android:title="@string/menu_empleado" />
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_menu_gallery"

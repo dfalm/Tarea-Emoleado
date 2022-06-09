@@ -3,18 +3,18 @@ package com.lugares.data
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.lugares.model.Lugar
+import com.lugares.model.Empleado
 
 
-@Database(entities=[Lugar::class], version = 1, exportSchema = false)
-abstract class LugarDataBase : RoomDatabase(){
+@Database(entities=[Empleado::class], version = 1, exportSchema = false)
+abstract class EmpleadoDataBase : RoomDatabase(){
 
-    abstract fun lugarDao() : LugarDao
+    abstract fun empleadoDao() : EmpleadoDao
     companion object{
         @Volatile
-        private var INSTANCE: LugarDataBase? = null
+        private var INSTANCE: EmpleadoDataBase? = null
 
-        fun getDatabase(context: android.content.Context) : LugarDataBase{
+        fun getDatabase(context: android.content.Context) : EmpleadoDataBase{
             val tempInstance = INSTANCE
             if(tempInstance != null){
                 return tempInstance
@@ -22,8 +22,8 @@ abstract class LugarDataBase : RoomDatabase(){
             synchronized(this){
                 val instance = Room.databaseBuilder(
                     context.applicationContext,
-                    LugarDataBase::class.java,
-                    "lugar_database"
+                    EmpleadoDataBase::class.java,
+                    "Empleado_database"
                 ).build()
                 INSTANCE = instance
                 return instance

@@ -3,16 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_lugar">
+    app:startDestination="@+id/nav_empleado">
 
     <fragment
-        android:id="@+id/nav_lugar"
-        android:name="com.lugares.ui.lugar.LugarFragment"
-        android:label="@string/menu_lugar"
-        tools:layout="@layout/fragment_lugar" >
+        android:id="@+id/nav_empleado"
+        android:name="com.lugares.ui.empleado.EmpleadoFragment"
+        android:label="@string/menu_empleado"
+        tools:layout="@layout/fragment_empleado" >
         <action
             android:id="@+id/action_nav_lugar_to_addLugarFragment"
-            app:destination="@id/addLugarFragment" />
+            app:destination="@id/addEmpleadoFragment" />
     </fragment>
 
     <fragment
@@ -27,12 +27,12 @@
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
     <fragment
-        android:id="@+id/addLugarFragment"
-        android:name="com.lugares.ui.lugar.AddLugarFragment"
+        android:id="@+id/addEmpleadoFragment"
+        android:name="com.lugares.ui.empleado.AddEmpleadoFragment"
         android:label="fragment_add_lugar"
-        tools:layout="@layout/fragment_add_lugar" >
+        tools:layout="@layout/fragment_add_empleado" >
         <action
             android:id="@+id/action_addLugarFragment_to_nav_lugar"
-            app:destination="@id/nav_lugar" />
+            app:destination="@id/nav_empleado" />
     </fragment>
 </navigation>
